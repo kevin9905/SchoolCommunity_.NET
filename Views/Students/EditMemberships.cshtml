@@ -1,0 +1,37 @@
+﻿@model Lab4.Models.ViewModels.StudentViewModel
+
+@{
+    ViewData["Title"] = "Edit Memberships";
+    Layout = "_Layout";
+}
+
+<h1>Edit</h1>
+<h5>Student</h5>
+
+<table class="table">
+    <tr>
+        <td><h6>Full Name </h6></td>
+        <td><h5>@Html.DisplayFor(model => model.Student.FullName)</h5></td>
+        <td></td>
+    </tr>
+        @foreach (var item in Model.Communities)
+        {
+            <tr>
+                <td>
+                    @{
+
+                        var s = item.Title;
+                    }
+                    <div>@s</div>
+                </td>
+                <td ><a id="click" asp-action="EditMemberships" >Unregister </a></td>
+                <td></td>
+                <td></td>
+            </tr>
+        }
+</table>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

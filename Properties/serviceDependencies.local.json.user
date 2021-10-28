@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2020-12-14T05:20:45.5883412Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-12-14T05:20:48.0863569Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "55f454ff-9d77-484b-953f-406419f59a45"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "nguyenphamlab4"
+    }
+  }
+}

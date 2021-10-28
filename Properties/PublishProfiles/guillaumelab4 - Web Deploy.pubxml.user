@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdNeOU6fbUWXveZxQ1o66AAAAAACAAAAAAAQZgAAAAEAACAAAABXSmBjFVTiLAtsBC/gDWLA+1EYJHpHI/a4aO8VS8UpeAAAAAAOgAAAAAIAACAAAABwnTM0Kt8WCci+T+KqNA1m4jOYV0QdfhrwaXGQcUGenoAAAAAz2SOvz3pbjyje+zmKnsZ8khXgC74Dg2K0c1QCmsGFWAo0joczjkZuMZUiOxvU0gfnZwQZAip1tdF6IVJm0ZHEfK8yrmTWBbYD/1GUVACYR2XVkDNhplPqPeul/uKXK++bSuPjydmw66zmN9DmFcKb/3GChb+478ZYxqzKe4r2qUAAAACLMdJ06M9vvtBezHaj4MF4dPmogVuSINYQdAhkn9jKzLhfxU0OCVQKMZFZJPJeNytZFXggk06J1t29ZpQyqSRM</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:guillaumesqlserver.database.windows.net,1433%3bInitial Catalog=guillaumelab4%3bUser Id=urmagurtle%40guillaumesqlserver%3bPassword=C1h2e3w4y5</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab4.Data.SchoolCommunityContext">
+      <Value>Data Source=tcp:guillaumesqlserver.database.windows.net,1433%3bInitial Catalog=guillaumelab4%3bUser Id=urmagurtle%40guillaumesqlserver%3bPassword=C1h2e3w4y5</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
